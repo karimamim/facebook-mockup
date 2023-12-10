@@ -19,12 +19,42 @@
       type="font/woff2"
       crossorigin
     />
-    <!-- this is main style link -->
+
     <style id="ez-toc-inline-css" type="text/css">
       .page-facebook-ads-mockup
         section.section-fb-mockup-content
         .section-content {
         top: 0px !important;
+      }
+      .page-facebook-ads-mockup .app-install-type .type.active,
+      .page-facebook-ads-mockup
+        .app-install-wrapper
+        .app-install-result-type
+        a.active,
+      .page-facebook-ads-mockup .event-wrapper .event-result-type a.active,
+      .page-facebook-ads-mockup
+        .video-post-wrapper
+        .video-post-result-type
+        a.active,
+      .page-facebook-ads-mockup .image-upload-wrap:hover,
+      .page-facebook-ads-mockup .website-click-type .type.active,
+      .page-facebook-ads-mockup
+        .website-click-wrapper
+        .website-click-result-type
+        a.active,
+      .page-facebook-ads-mockup .menu-wrapper ul li.active {
+        background-color: #5cc3e4 !important;
+        color: #fff !important;
+      }
+      .page-facebook-ads-mockup .image-upload-wrap {
+        border: 1px dashed #5cc3e4 !important;
+        border-radius: 25px;
+      }
+      .page-facebook-ads-mockup .image-upload-wrap .drag-text p {
+        color: #5cc3e4 !important;
+      }
+      .page-facebook-ads-mockup .image-upload-wrap:hover .drag-text p {
+        color: #fff !important;
       }
     </style>
     <link
@@ -267,7 +297,7 @@
                               target=".website-click-result-display .page-logo"
                             >
                               <label
-                                class="col-2 btn btn-dark"
+                                class="col-2 btn btn-info"
                                 for="wc-fb-profile-img"
                               >
                                 <!-- <input id="fb-profile-img" name="fb-profile-img" type="file" class="d-none" accept="image/*"> -->
@@ -891,7 +921,7 @@
                               </div>
                             </div>
                           </div>
-                          <button class="btn btn-danger btn-lg clear-fields">
+                          <button class="btn btn-info btn-lg clear-fields">
                             Reset All Fields
                           </button>
                         </div>
@@ -954,7 +984,7 @@
                               target=".video-post-result-display .page-logo"
                             >
                               <label
-                                class="col-2 btn btn-dark"
+                                class="col-2 btn btn-info"
                                 for="vp-fb-profile-img"
                               >
                                 <input
@@ -1286,7 +1316,7 @@
                             </div>
                           </div>
 
-                          <button class="btn btn-danger clear-fields">
+                          <button class="btn btn-info clear-fields">
                             Reset All Fields
                           </button>
                         </div>
@@ -1346,7 +1376,7 @@
                               target=".event-result-display .page-logo"
                             >
                               <label
-                                class="col-2 btn btn-dark"
+                                class="col-2 btn btn-info"
                                 for="et-fb-profile-img"
                               >
                                 <input
@@ -1513,7 +1543,7 @@
                             </div>
                           </div>
 
-                          <button class="btn btn-danger clear-fields">
+                          <button class="btn btn-info clear-fields">
                             Reset All Fields
                           </button>
                         </div>
@@ -1611,7 +1641,7 @@
                               target=".app-install-result-display .page-logo"
                             >
                               <label
-                                class="col-2 btn btn-dark"
+                                class="col-2 btn btn-info"
                                 for="wc-fb-profile-img"
                               >
                                 <!-- <input id="fb-profile-img" name="fb-profile-img" type="file" class="d-none" accept="image/*"> -->
@@ -2236,7 +2266,7 @@
                             </div>
                           </div>
 
-                          <button class="btn btn-danger clear-fields">
+                          <button class="btn btn-info clear-fields">
                             Reset All Fields
                           </button>
                         </div>
@@ -3084,7 +3114,7 @@
                         </div>
                       </div>
                       <button
-                        class="btn btn-danger btn-lg my-2 w-100 download-mockup"
+                        class="btn btn-info btn-lg my-2 w-100 download-mockup"
                       >
                         Download Mockup
                       </button>
